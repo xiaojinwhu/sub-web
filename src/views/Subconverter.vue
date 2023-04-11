@@ -298,6 +298,16 @@ export default {
         },
         backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
         remoteConfig: [
+        {
+            label: "own",
+            options: [
+              {
+                label: "xiaojinyu",
+                value:
+                  "https://raw.githubusercontent.com/xiaojinwhu/rules/main/config.ini"
+              }
+            ]
+          },
           {
             label: "universal",
             options: [
